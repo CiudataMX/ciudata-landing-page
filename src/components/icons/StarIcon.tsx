@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Component = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20.631 19.71" {...props}><path xmlns="http://www.w3.org/2000/svg" fill="currentColor" d="M11.121.49a.903.903 0 0 0-1.605 0L6.756 5.9.76 6.85a.9.9 0 0 0-.716.61.92.92 0 0 0 .217.92l4.29 4.29-.945 6a.91.91 0 0 0 .36.87c.274.2.634.23.938.07l5.415-2.75 5.411 2.75c.3.16.664.13.938-.07a.91.91 0 0 0 .36-.87l-.949-6 4.29-4.29c.24-.24.322-.6.217-.92a.89.89 0 0 0-.716-.61l-5.992-.95z" /></svg>;
+export default Component;

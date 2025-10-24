@@ -1,10 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  /* Colors */
+  --color-primary-bg: #2d3036;
+  --color-secondary-bg: #4c515b;
+  --color-text-primary: #e6f5fb;
+  --color-text-secondary: #9ca1aa;
+  --color-accent-cyan: #33afe2;
+  --color-accent-blue: #009bdb;
+  --color-accent-orange: #ffa433;
+  --color-accent-gold: #ffb354;
+  --color-accent-pink: #debaba;
+  --color-overlay: rgba(0, 0, 0, 0.30);
+  
+  /* Typography */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  
+  /* Shadows */
+  --shadow-sm: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  --shadow-text: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-primary-bg);
+  color: var(--color-text-primary);
+}
+
+/* Typography Classes */
+.heading-xl {
+  font-family: var(--font-heading);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.heading-lg {
+  font-family: var(--font-heading);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.heading-md {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.text-xl {
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.text-lg {
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.text-md {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.text-sm {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Mobile Typography */
+@media (max-width: 768px) {
+  .heading-xl {
+    font-size: 32px;
+  }
+
+  .heading-lg {
+    font-size: 28px;
+  }
+
+  .heading-md {
+    font-size: 18px;
+  }
+
+  .text-xl {
+    font-size: 18px;
+  }
+
+  .text-lg {
+    font-size: 18px;
+  }
+
+  .text-md {
+    font-size: 14px;
+  }
+
+  .text-sm {
+    font-size: 14px;
+  }
 }
 
 code {
