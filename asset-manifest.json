@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ciudata-landing-page/static/css/main.df266f68.css",
+    "main.js": "/ciudata-landing-page/static/js/main.5da52866.js",
+    "static/js/453.2cb347cc.chunk.js": "/ciudata-landing-page/static/js/453.2cb347cc.chunk.js",
+    "index.html": "/ciudata-landing-page/index.html",
+    "main.df266f68.css.map": "/ciudata-landing-page/static/css/main.df266f68.css.map",
+    "main.5da52866.js.map": "/ciudata-landing-page/static/js/main.5da52866.js.map",
+    "453.2cb347cc.chunk.js.map": "/ciudata-landing-page/static/js/453.2cb347cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df266f68.css",
+    "static/js/main.5da52866.js"
+  ]
+}
