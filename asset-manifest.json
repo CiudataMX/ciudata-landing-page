@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/ciudata-landing-page/static/css/main.df266f68.css",
-    "main.js": "/ciudata-landing-page/static/js/main.d7cc024a.js",
+    "main.js": "/ciudata-landing-page/static/js/main.30685779.js",
     "static/js/453.84a2a4a2.chunk.js": "/ciudata-landing-page/static/js/453.84a2a4a2.chunk.js",
+    "static/media/hero-background.jpg": "/ciudata-landing-page/static/media/hero-background.066769ddcbf615b44e6b.jpg",
+    "static/media/project-2.jpeg": "/ciudata-landing-page/static/media/project-2.1276e0c480dba4ee3d78.jpeg",
+    "static/media/project-meeting.png": "/ciudata-landing-page/static/media/project-meeting.a13a97a6adeeeb4b6c76.png",
+    "static/media/emma-avatar.jpg": "/ciudata-landing-page/static/media/emma-avatar.e076d3d63237c6c44d7f.jpg",
+    "static/media/logo.png": "/ciudata-landing-page/static/media/logo.ed68f11d6d8866a41709.png",
     "index.html": "/ciudata-landing-page/index.html",
     "main.df266f68.css.map": "/ciudata-landing-page/static/css/main.df266f68.css.map",
-    "main.d7cc024a.js.map": "/ciudata-landing-page/static/js/main.d7cc024a.js.map",
+    "main.30685779.js.map": "/ciudata-landing-page/static/js/main.30685779.js.map",
     "453.84a2a4a2.chunk.js.map": "/ciudata-landing-page/static/js/453.84a2a4a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df266f68.css",
-    "static/js/main.d7cc024a.js"
+    "static/js/main.30685779.js"
   ]
 }
