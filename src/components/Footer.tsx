@@ -1,4 +1,5 @@
 import styles from './Footer.module.css';
+import Logo from "./images/logo.png";
 
 const Footer = () => {
 
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className={styles.container}>
         <div className={styles.column}>
           <div className={styles.logoSection}>
-            <img src="/images/logo.png" alt="Urban Lytica Logo" className={styles.logoImage} />
+            <img src={Logo} alt="Urban Lytica Logo" className={styles.logoImage} />
             <span className={styles.logoText}>Urban Lytica</span>
           </div>
           <p className={styles.tagline}>
