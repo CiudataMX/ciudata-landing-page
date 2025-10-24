@@ -1,6 +1,4 @@
 import styles from './FeaturedProject.module.css';
-import Project1 from "./images/project-meeting.png";
-import Project2 from "./images/project-2.jpeg";
 
 const FeaturedProject = () => {
   return (
@@ -10,7 +8,7 @@ const FeaturedProject = () => {
         <div className={styles.content}>
           <div className={styles.imageWrapper}>
             <img
-              src={Project1}
+              src="%PUBLIC_URL%/images/project-meeting.png"
               alt="Team meeting for Carretera Juan de Garay project"
               className={styles.image}
             />
@@ -26,7 +24,7 @@ const FeaturedProject = () => {
         <div className={styles.content}>
           <div className={styles.imageWrapper}>
             <img
-              src={Project2}
+              src="%PUBLIC_URL%/images/project-2.jpeg"
               alt="Team meeting for Carretera Juan de Garay project"
               className={styles.image}
             />

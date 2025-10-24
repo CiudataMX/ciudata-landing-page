@@ -3,7 +3,6 @@ import LeftArrowIcon from './icons/LeftArrowIcon';
 import RightArrowIcon from './icons/RightArrowIcon';
 import StarIcon from './icons/StarIcon';
 import styles from './Testimonials.module.css';
-import TestimonialImg from "/images/emma-avatar.jpg";
 
 interface Testimonial {
   name: string;
@@ -16,7 +15,7 @@ const Testimonials = () => {
   const testimonials: Testimonial[] = [
     {
       name: 'Marisol Ramirez',
-      avatar: TestimonialImg,
+      avatar: "%PUBLIC_URL%/images/emma-avatar.jpg",
       review:
         'Mi sueño es tener áreas verdes para los niños de aquí de la comunidad. Es un sueño que tengo desde hace mucho tiempo, una inquietud.',
       rating: 5,

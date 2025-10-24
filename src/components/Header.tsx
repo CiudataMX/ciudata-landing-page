@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { scrollToSection } from '../utils/scrollToSection';
 import styles from './Header.module.css';
-import Logo from "./images/logo.png";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState('inicio');
@@ -15,7 +14,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <a href="#inicio" className={styles.logo} onClick={() => handleNavClick('inicio')}>
-          <img src={Logo} alt="Urban Lytica Logo" className={styles.logoImage} />
+          <img src="%PUBLIC_URL%/images/logo.png" alt="Urban Lytica Logo" className={styles.logoImage} />
           <span className={styles.logoText}>Urban Lytica</span>
         </a>
         <nav className={styles.nav}>

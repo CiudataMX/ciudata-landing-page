@@ -1,6 +1,5 @@
 import { scrollToSection } from '../utils/scrollToSection';
 import styles from './Hero.module.css';
-import Background from "./images/hero-background.jpg";
 
 const Hero = () => {
   const handleScrollToProjects = () => {
@@ -10,7 +9,7 @@ const Hero = () => {
   return (
     <section id="inicio" className={styles.hero}>
       <img
-        src={Background}
+        src="%PUBLIC_URL%/images/hero-background.jpg"
         alt="Urban cityscape"
         className={styles.background}
       />
